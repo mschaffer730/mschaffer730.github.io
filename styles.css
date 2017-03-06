@@ -1,3 +1,24 @@
 body {
 	background: blue;
+	max-width: 750px;
+}
+
+#one {
+	padding: 10px;
+	border: 1px solid black;
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    font-size: 15px
+  }
+}
+
+h1 {
+	color: orange;
+}
+
+.footnote {
+	font-style: italic;
+	font-family: arial;
 }
